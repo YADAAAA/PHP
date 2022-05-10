@@ -1,0 +1,7 @@
+<?php while($row = mysqli_fetch_assoc($result)){ ?>
+                <tr>
+                    <td><?php $row["typeid"]; ?></td>
+                    <td><?php $row["typename"]; ?></td>          
+                </tr>
+            </tbody>
+            <?php } ?>
